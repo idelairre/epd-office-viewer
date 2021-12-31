@@ -11,6 +11,6 @@ export default function Index() {
   console.log(OFFICE_FILE_URL);
   
   return (
-    <iframe src={`https://view.officeapps.live.com/op/embed.aspx?src=${OFFICE_FILE_URL}`} width='px' height='px' frameBorder='0'></iframe>
+    <iframe src={`https://view.officeapps.live.com/op/embed.aspx?src=${OFFICE_FILE_URL}`} width='1000px' height='1000px' frameBorder='0'></iframe>
   );
 }
